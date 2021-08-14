@@ -1,0 +1,36 @@
+.meanings {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  height: 55vh;
+  border: 5px solid rgb(83, 77, 77);
+  border-radius: 10px;
+  padding: 10px 20px;
+  overflow-x: hidden;
+}
+
+.subtitle {
+  font-size: 5vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 900px) {
+  .meanings {
+    height: 60vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}
+
+.defMeaning {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+audio {
+  width: 100%;
+}
